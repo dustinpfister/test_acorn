@@ -31,7 +31,7 @@ let parseJS = function (input, options) {
 };
 
 // parse the es5 string
-parseJS(js5,options).then(function (node) {
+parseJS(js5, options).then(function (node) {
 
     console.log(node); // the node
 
@@ -42,7 +42,7 @@ parseJS(js5,options).then(function (node) {
 });
 
 // parse the es6 string
-parseJS(js6,options).then(function (node) {
+parseJS(js6, options).then(function (node) {
 
     console.log(node);
 
