@@ -2,6 +2,8 @@ let acorn = require('acorn');
 
 let node = acorn.parse('var n = 42;');
 
+console.log(node);
+
 /*
 Node {
   type: 'Program',
